@@ -1,0 +1,18 @@
+- name: <i class="fab fa-twitter"></i>
+  link: http://www.twitter.com/alaylihacker
+  tooltip : Follow Me
+- name: <i class="fab fa-linkedin"></i>
+  link: http://www.linkedin.com/in/ebubekiracar
+  tooltip : Follow Me
+- name: <i class="fab fa-github"></i>
+  link: http://www.github.com/ebubekiracar
+  tooltip : Follow Me
+- name: <i class="fab fa-gitlab"></i>
+  link: http://gitlab.com/ebubekiracar
+  tooltip : Follow Me
+- name: <i class="fab fa-youtube"></i>
+  link: https://www.youtube.com/channel/UC5xBgm9eHaH1NLMF0Cy1puA
+  tooltip : Subscribe
+- name: <i class="fa fa-rss"></i>
+  link: /feed.xml
+  tooltip : Subscribe

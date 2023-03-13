@@ -1,0 +1,5 @@
+<div class="social-link my-3">
+{% for item in site.data.social %}
+	<a href="{{ item.link }}" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ item.tooltip }}">{{ item.name }}</a>
+{% endfor %}
+</div>

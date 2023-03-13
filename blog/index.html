@@ -1,0 +1,43 @@
+---
+layout: default
+title : BLOG
+---
+{% include search.html %}
+<h1 style="font-family: 'Bebas Neue', cursive;font-size:xxx-large;">{{ page.title }}</h1>
+
+<ul class="postls">
+  {% for post in paginator.posts %}
+  <div class="d-flex justify-content-between">
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    <time class="align-self-center" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+  </div>
+    {% endfor %}
+</ul>
+
+<!--pagination v1-->
+<div class="d-block text-center pagv1">
+  <div class="pagination">
+    {% if paginator.total_pages > 1 %}
+    <div class="paga col-6">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&Lang;</a>
+      {% else %}
+        <span class="text-danger">&xotime;</span>
+      {% endif %}
+    </div>
+    <div class="paga col-6">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&Rang;</a>
+      {% else %}
+        <span class="text-danger">&xotime;</span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  </div>
+<br>
+<hr>
+<br>
+<div class="text-center"><a class="u-url" href="/">home <img class="imgsvg" src = "/assets/svg/corner-up-left.svg" alt="Sweet Home Sweet"/></a></div>

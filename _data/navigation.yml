@@ -1,0 +1,8 @@
+- name: <i class="fa fa-home"></i>
+  link: /
+- name: <i class="fa fa-user"></i>
+  link: about
+- name: <i class="fa fa-envelope"></i>
+  link: contact
+- name: <i class="fa fa-list"></i>
+  link: blog

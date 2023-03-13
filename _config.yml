@@ -1,0 +1,30 @@
+title: Ebu Bekir Acar
+author: Ebu Bekir Acar
+job: Cyber Security Analyst
+email: email@gmail.com
+url: https://ebubekiracar.github.io
+baseurl: "/beyaz"
+description: >
+  Siber Güvenlik , Linux ve programlama alanında edindiğim bilgileri paylaşıyorum .
+favicon: "favicon.png"
+profile-png: assets/img/ben.jpg
+
+#google_analytics: G-GGGGGGGGGG
+#google-verification: 
+#bing-verification: 
+#yandex-verification: 
+
+paginate: 3
+paginate_path: "/blog/page:num/"
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate

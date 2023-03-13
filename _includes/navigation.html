@@ -1,0 +1,5 @@
+<nav class="text-center navcik">
+  {% for item in site.data.navigation %}
+    <a class="text-decoration-none" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %} data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="{{ item.link }}" aria-label="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
