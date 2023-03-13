@@ -1,5 +1,4 @@
 ---
-title: {{ site.title }}
 layout: default
 ---
 <div class="container">
