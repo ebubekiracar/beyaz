@@ -1,3 +1,9 @@
+# Screenshot
+### index
+![ss-1](https://user-images.githubusercontent.com/37667884/224807174-965ae8b7-e995-4a76-a6e5-e393c5aeefea.png)
+### blog
+![ss-2](https://user-images.githubusercontent.com/37667884/224807235-7d7470df-a71e-470a-8349-50b63ab92f63.png)
+
 # beyaz
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
